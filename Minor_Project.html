@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <titl>Deja Vu Fest</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      #reach {
+        background-color: black;
+        width: 1120px;
+        height: 400px;
+      }
+
+      #home {
+        
+        width: 1110px;
+        height: 600px;
+        border-radius: 15px;
+        background-image: url("https://campusjugaad.com/wp-content/uploads/2020/07/anchoring-script-for-cultural-event-in-school.jpg");
+      }
+
+      #gallery {
+        display: grid;
+        align-items: center;
+      }
+
+      #photos {
+        margin: auto;
+        width: 900px;
+        height: 500px;
+        border-radius: 15px;
+        background-image: url("https://res.cloudinary.com/purnesh/image/upload/w_1080,f_auto/header204.jpg");
+        background-size: cover;
+        animation-name: pics;
+        animation-duration: 24s;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes pics {
+        10% {
+          background-image: url("https://duexpress.in/wp-content/uploads/2018/02/11037184_900910113335658_7019419282255216226_n.jpg");
+          background-size: cover;
+          background-size: cover;
+        }
+
+        20% {
+          background-image: url("https://duexpress.in/wp-content/uploads/2018/02/12669447_1047990971925267_1671649496665871074_n.jpg");
+          background-size: cover;
+        }
+
+        30% {
+          background-image: url("https://live.staticflickr.com/6136/5983315704_5a0454d29d_b.jpg");
+          background-size: cover;
+        }
+
+        40% {
+          background-image: url("https://www.hfcc.edu/sites/hfcmain/files/jenga2.jpg");
+          background-size: cover;
+        }
+
+        50% {
+          background-image: url("https://mathsocssc.files.wordpress.com/2015/03/11.jpg");
+          background-size: cover;
+        }
+
+        60% {
+          background-image: url("https://images.tribuneindia.com/cms/gall_content/2018/3/2018_3$largeimg02_Friday_2018_012912420.jpg");
+          background-size: cover;
+        }
+
+        70% {
+          background-image: url("https://englishtribuneimages.blob.core.windows.net/gallary-content/2021/3/Desk/2021_3$largeimg_1945063246.jpeg");
+          background-size: cover;
+        }
+
+        80% {
+          background-image: url("https://static.toiimg.com/thumb/msid-74202915,imgsize-1249320,width-800,height-600,resizemode-75/74202915.jpg");
+          background-size: cover;
+        }
+
+        90% {
+          background-image: url("https://1.bp.blogspot.com/-PUmFjo_wZv8/WsHftrnRNyI/AAAAAAAAB98/5tCtCZm4LuYeelhyS5IiVoAyhD5Y9fW3ACLcBGAs/s1600/NCU%2BStudents%2BParticipate%2Bat%2B%25E2%2580%2598Engifest%2B2018%25E2%2580%2599.jpg");
+          background-size: cover;
+        }
+
+        100% {
+          background-image: url("https://res.cloudinary.com/purnesh/image/upload/w_540,f_auto,q_auto:eco,c_limit/swaranjali.jpg");
+          background-size: cover;
+        }
+      }
+      #fixedbutton {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+      }
+
+      .navbar-custom {
+        background-color: black;
+      }
+    </style>
+  </head>
+
+  <body id="head" class="bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-cog fa-spin  " style="color: yellowgreen;"></i> Deja Vu</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#events">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Photos</a>
+            </li>
+
+            <li class="na-item">
+              <a class="nav-link" href="#news">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reach">Reach Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <a href="#head"><i
+        class="fas fa-arrow-alt-circle-up fa-3x fa-fw text-light"
+        id="fixedbutton"
+      ></i>
+    </a>
+    <main class="container">
+      <section id="home" class="d-flex gap-2 mt-5 p-5 mb-5">
+        <div>
+         
+          <h1 style=" color: rgb(171, 199, 14); ">DEJA VU FEST</h1>
+          <h6  style="color: rgb(235, 217, 194);"> Unleash your potential by participating in the techno-cultural fest (23'July-27'July 2021) organised by JBM-Society WELESLY Chapter .</h6>
+         
+          <br><br><br><br><br>    
+          <br><br><br><br><br><br>
+          <br><br><br><br>
+          <h4 class="text-light">Mr.Derick Michel will grace the occasion by his bening presence.</h4>
+          
+         </div>
+      </section>
+      <section id="events" class="d-flex gap-3 mt-5 p-3 mb-5">
+        <div class="row justify-content-center">
+          <h1 class="text-dark bg-light text-center gap-3">EVENTS</h1>
+          <br /><br />
+          <div class="card m-2 p-2" style="width: 300px">
+            <img
+              src="https://cdn2.vectorstock.com/i/1000x1000/15/61/tug-war-vector-35641561.jpg"
+              height="300px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Tug Of War</h5>
+              <p class="card-text">
+                Athletic contest between two teams at opposite ends
+                of a rope, each team trying to drag the other across a centre
+                line.
+                <br><br>
+                3:00pm 23'July'21 <br>@ FET Lawn 
+              </p>
+              <a href="https://www.google.com" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+          <div class="card m-2 p-2" style="width: 300px">
+            <img
+              src="https://en.pimg.jp/062/003/437/1/62003437.jpg"
+              height="300px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Talent Show</h5>
+              <p class="card-text">
+                Showcase your skills like singing, dancing, lip-syncing, acting, martial arts, playing
+                an instrument, poetry, comedy and set the stage on fire.
+                <br><br>
+                11:00am 24'July'21<br> @ LFT Auditorium
+              </p>
+              <a href="https://www.google.com" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+          <div class="card m-2 p-2" style="width: 300px">
+            <img
+              src="https://t3.ftcdn.net/jpg/01/69/93/38/360_F_169933876_Arqpw4hP6JOzVWBWxtOBDWFx4OzU7TL8.jpg"
+              width="280px"
+              height="300px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Treasure Hunt</h5>
+              <p class="card-text">
+                Use your detective skills and help your teammates find the treasure.
+                <br><br><br><br>12:30pm 25'July'2021 
+                <br>@ Bluedell Field
+                <br>
+              </p>
+              <a href="https://www.google.com" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+
+          <div class="card m-2 p-2" style="width: 300px">
+            <img
+              src="https://images.unsplash.com/photo-1598386149198-c3ca3002337b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+              height="300px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Live Concert</h5>
+              <p class="card-text">
+               Get to meet your favourite singer  at the  concert 'Wild About Music'<br><br>
+               <br><br>7:00pm 27'July'21
+               <br>@ NPC Open Theater
+              </p>
+              <a href="https://www.google.com" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+          <div class="card m-2 p-2" style="width: 300px">
+            <img
+              src="https://images.unsplash.com/photo-1599690352319-c3e8f571ddb6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGplbmdhfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              height="300px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jenga</h5>
+              <p class="card-text">
+                Save the tower from falling while removing the blocks alternately.
+                <br><br><br><br>4:00pm 27'July'21
+                <br>@ FET Lawn
+              </p>
+              <a href="https://www.google.com" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+          <div class="card m-2 p-2" style="width: 300px">
+            <img
+              src="https://us.123rf.com/450wm/jackf/jackf1902/jackf190209564/117861166-portrait-of-excited-guy-laser-tag-player-with-laser-pistol-in-room-with-bright-beams.jpg?ver=6"
+              height="300px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Laser Tag</h5>
+              <p class="card-text">
+               A recreational shooting sport where participants
+                use infrared-emitting light guns to tag designated targets.
+                <br><br>1:00pm 26'July'21
+                <br>@ Bluedell Field
+              </p>
+              <a href="https://www.google.com" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="gallery" class="mt-5 mb-5">
+        <div id="go">
+          <h1 class="text-center text-dark bg-light">PHOTOS</h1>
+        </div>
+        <div id="photos" class="mt-2"></div>
+      </section>
+      <section id="news">
+        <marquee class="text-light"
+          >Last date for registration is 20th JULy 2021 5pm(IST). <br />For
+          latest updates visit the website frequently.<br />
+        </marquee>
+
+        <br /><br /><br />
+      </section>
+      <footer id="reach" class="d-flex gap-3 mt-7 p-5">
+        <div class="col-8">
+          <h1 class="text-light">Reach Us At</h1>
+          <br /><br />
+
+          <h4 class="text-light">
+            <a href="https://www.instagram.com"
+              ><i
+                class="fab fa-instagram"
+                style="color: rgba(228, 17, 87, 0.849)"
+              ></i
+            ></a>
+            Instagram
+          </h4>
+          <h4 class="text-light">
+            <a href="https://www.facebook.com/"
+              ><i class="fab fa-facebook" style="color: #3b5998"></i
+            ></a>
+            Facebook
+          </h4>
+          <h4 class="text-light">
+            <a href="https://www.gmail.com/"
+              ><i
+                class="far fa-envelope"
+                aria-hidden="true"
+                style="color: #bb001b"
+              ></i
+            ></a>
+            Gmail
+          </h4>
+          <h4 class="text-light">
+            <a href="https://www.twitter.com/"
+              ><i
+                class="fab fa-twitter"
+                style="color: rgb(28, 142, 207)"
+              ></i> </a
+            >Twitter
+          </h4>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
